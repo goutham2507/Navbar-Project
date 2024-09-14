@@ -1,0 +1,68 @@
+body{
+    margin:0%;
+    padding: 0%;
+    width:100vw;
+    height:100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://images.pexels.com/photos/1420702/pexels-photo-1420702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: cover;
+}
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:11vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+nav a{
+    padding: 23px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    align-items: center;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+.sidebar{
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    top: 0%;
+    right:0%;
+    height:100vh;
+    width:15vw;
+    z-index: 999;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: none;
+}
+.sidebar li{
+    width:12vw;
+    text-align: center;
+    margin: 0%;
+    padding: 25px;
+    
+}
+.sidebar a{
+    margin: 0%;
+    width:100%; 
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+}
